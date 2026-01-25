@@ -1,6 +1,6 @@
 import time, os, random
 from turtle import Turtle, Screen
-from paddle import Paddle, Drawer
+from paddles import Paddle, Drawer
 from ball import Ball, Scorer
 
 window = Screen()
