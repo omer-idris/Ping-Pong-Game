@@ -15,3 +15,12 @@ class Paddle(Turtle):
 
     def go_down(self):
         self.goto(self.xcor(), self.ycor()-100)
+
+class Drawer(Turtle):
+    def __init__(self):
+        super().__init__()
+        self.color('orange')
+        self.penup()
+        self.hideturtle()
+        self.pensize(10)
+        self.speed('fastest')
