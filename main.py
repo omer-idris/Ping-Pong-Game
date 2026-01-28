@@ -1,7 +1,7 @@
 import os, random, time, string
 from turtle import Turtle, Screen
-from new_paddle import Paddle 
-from new_ball import Ball, Scorer
+from paddle import Paddle 
+from ball import Ball, Scorer
 
 window = Screen()
 window.title('مضارب الكرة الذهبية')
